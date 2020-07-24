@@ -130,4 +130,5 @@ func main() {
 	output, _ := json.Marshal(profiles)
 	clipboard.WriteAll(string(output))
 	clipboard.ReadAll()
+	fmt.Println("Copied JSON to clipboard")
 }
